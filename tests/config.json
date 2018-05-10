@@ -1,0 +1,22 @@
+﻿{
+	"bases": {
+		"base1": {
+			"conn": "File='C:\\base1'",
+			"user": "Администратор",
+			"pwd": "123"
+		},
+		"base2": {
+			"conn": "File='C:\\base2'"
+		},
+		"base3": {
+			"conn": "Srvr='srvr';Ref='base3'",
+			"user": "Администратор",
+			"pwd": "123",
+			"version": "8.3.10"
+		}
+	},
+	"p1": "param1",
+	"p2": true,
+	"p3": false,
+	"p4": 10
+}
