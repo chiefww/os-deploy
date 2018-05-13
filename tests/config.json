@@ -13,6 +13,13 @@
 			"user": "Администратор",
 			"pwd": "123",
 			"version": "8.3.10"
+		},
+		"basesql": {
+			"conn": "Srvr='srvr';Ref='basesql'",
+			"user": "Администратор",
+			"pwd": "123",
+			"sql-server": "sqlsrvr",
+			"sql-base": "basesql1"
 		}
 	},
 	"p1": "param1",
