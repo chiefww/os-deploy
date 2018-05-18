@@ -20,6 +20,13 @@
 			"pwd": "123",
 			"sql-server": "sqlsrvr",
 			"sql-base": "basesql1"
+		},
+		"baserepo": {
+			"conn": "Srvr=srvr;Ref=baserepo",
+			"user": "Администратор",
+			"pwd": "123",
+			"repo-user": "admin",
+			"repo-pwd": "1234"
 		}
 	},
 	"p1": "param1",
