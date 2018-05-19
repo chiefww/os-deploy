@@ -29,6 +29,28 @@
 			"repo-pwd": "1234"
 		}
 	},
+	
+	"mail-default": {
+		"smtp": "smtp.domain.com",
+		"port": 465,
+		"user": "user",
+		"pwd": "123"
+	},
+	"mail-ssl": {
+		"smtp": "smtp.domain.com",
+		"port": 465,
+		"user": "user",
+		"pwd": "123",
+		"ssl": true
+	},
+	"mail-nossl": {
+		"smtp": "smtp.domain.com",
+		"port": 465,
+		"user": "user",
+		"pwd": "123",
+		"ssl": false
+	},
+	
 	"p1": "param1",
 	"p2": true,
 	"p3": false,
