@@ -51,6 +51,13 @@
 		"ssl": false
 	},
 	
+	"ftp": {
+		"ftp": "ftp.domain.com",
+		"port": 21,
+		"user": "user",
+		"pwd": "1231"
+	},
+	
 	"p1": "param1",
 	"p2": true,
 	"p3": false,
