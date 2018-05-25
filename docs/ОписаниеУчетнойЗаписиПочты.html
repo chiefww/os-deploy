@@ -1,0 +1,92 @@
+﻿<html>
+<head>
+	<title>ОписаниеУчетнойЗаписиПочты</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	
+	body {
+		font-family: Arial;
+	}
+	
+	div.content h1 {
+		margin: 5px 0;
+	}
+	
+	div.content h2 {
+		margin: 20px 0 5px 0;
+		padding: 10px;
+		background: #ccc;
+	}
+	
+	div.content h3 {
+		margin: 20px 0 5px 0;
+		font-size: 20px;
+	}
+	
+	div.content h4 {
+		margin: 10px 0 5px 0;
+	}
+	
+	div.content ul {
+		margin: 0;
+	}
+	
+	div.content div.sep {
+		margin: 20px 0 0 0;
+		border-top: 1px dotted #000;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h1>ОписаниеУчетнойЗаписиПочты</h1>
+		<div class="descr">Класс описания учетной записи почты</div>
+		<h2>Свойства:</h2>
+		<div class="block">
+			<h3>Идентификатор</h3>
+			<div class="descr">Идентификатор учетной записи почты как он задан в конфигурационном файле.</div>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>АдресSMTP</h3>
+			<div class="descr">Адрес smtp-сервера. Соответствует ключу <b>smtp</b>.</div>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ПортSMTP</h3>
+			<div class="descr">Порт smtp-сервера. Соответствует ключу <b>port</b>.</div>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ПользовательSMTP</h3>
+			<div class="descr">Пользователь smtp-сервера. Соответствует ключу <b>user</b>.</div>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ПарольSMTP</h3>
+			<div class="descr">Пароль пользователя smtp-сервера. Соответствует ключу <b>pwd</b>.</div>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ИспользоватьSSL</h3>
+			<div class="descr">Признак испоьзования защищенного соединения. По умолчанию Истина. Соответствует ключу <b>ssl</b>, необязательный.</div>
+		</div>
+
+
+		<h2>Методы:</h2>
+		<div class="block">
+			<h3>ПриСозданииОбъекта</h3>
+			<div class="descr">Конструктор.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ИД - <i>Строка</i> - Идентификатор учетной записи почты как он задан в конфигурационном файле.</li>
+				<li>Значения - <i>Соответствие</i> - Значения, считанные из конфигурационного файла.</li>
+
+			</ul>
+		</div>
+
+
+	</div>
+</body>
+</html>

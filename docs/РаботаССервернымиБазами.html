@@ -1,0 +1,75 @@
+﻿<html>
+<head>
+	<title>РаботаССервернымиБазами</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	
+	body {
+		font-family: Arial;
+	}
+	
+	div.content h1 {
+		margin: 5px 0;
+	}
+	
+	div.content h2 {
+		margin: 20px 0 5px 0;
+		padding: 10px;
+		background: #ccc;
+	}
+	
+	div.content h3 {
+		margin: 20px 0 5px 0;
+		font-size: 20px;
+	}
+	
+	div.content h4 {
+		margin: 10px 0 5px 0;
+	}
+	
+	div.content ul {
+		margin: 0;
+	}
+	
+	div.content div.sep {
+		margin: 20px 0 0 0;
+		border-top: 1px dotted #000;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h1>РаботаССервернымиБазами</h1>
+		<div class="descr">Модуль для работы с серверными базами и кластерами серверов</div>
+
+		<h2>Методы:</h2>
+		<div class="block">
+			<h3>ОтключитьСеансы</h3>
+			<div class="descr">Отключает сеансы и соединения базы данных.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ОписаниеБазы - <i>ОписаниеБазы</i> - Объект описания базы.</li>
+				<li>ИмяАдминистратора - <i>Строка</i> - Имя администратора кластера (необязательный).</li>
+				<li>Пароль - <i>Строка</i> - Пароль администратора кластера (необязательный).</li>
+
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>УстановитьБлокировкуРегламентныхЗаданий</h3>
+			<div class="descr">Устанавливает признак блокировки регламентных заданий в базе данных.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ОписаниеБазы - <i>ОписаниеБазы</i> - Объект описания базы.</li>
+				<li>Блокировка - <i>Булево</i> - Значение признака блокировки.</li>
+				<li>ИмяАдминистратора - <i>Строка</i> - Имя администратора кластера (необязательный).</li>
+				<li>Пароль - <i>Строка</i> - Пароль администратора кластера (необязательный).</li>
+
+			</ul>
+		</div>
+
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿<html>
+<head>
+	<title>РаботаСSQL</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	
+	body {
+		font-family: Arial;
+	}
+	
+	div.content h1 {
+		margin: 5px 0;
+	}
+	
+	div.content h2 {
+		margin: 20px 0 5px 0;
+		padding: 10px;
+		background: #ccc;
+	}
+	
+	div.content h3 {
+		margin: 20px 0 5px 0;
+		font-size: 20px;
+	}
+	
+	div.content h4 {
+		margin: 10px 0 5px 0;
+	}
+	
+	div.content ul {
+		margin: 0;
+	}
+	
+	div.content div.sep {
+		margin: 20px 0 0 0;
+		border-top: 1px dotted #000;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h1>РаботаСSQL</h1>
+		<div class="descr">Модуль для работы с базами средствами MSSQL</div>
+
+		<h2>Методы:</h2>
+		<div class="block">
+			<h3>СоздатьБэкап</h3>
+			<div class="descr">Создает бэкап базы.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ОписаниеБазы - <i>ОписаниеБазы</i> - Объект описания базы.</li>
+				<li>ИмяПользователя - <i>Строка</i> - Имя учетной записи MSSQL.</li>
+				<li>Пароль - <i>Строка</i> - Пароль учетной записи MSSQL.</li>
+				<li>ИмяФайла - <i>Строка</i> - Путь к файлу бэкапа.</li>
+
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ЗагрузитьБэкап</h3>
+			<div class="descr">Загружает бэкап базы.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ОписаниеБазы - <i>ОписаниеБазы</i> - Объект описания базы.</li>
+				<li>ОписаниеБазыИсточника - <i>ОписаниеБазы</i> - В случае, когда бэкап загружается в другую базу, нужно указать базу-источник (необязательный).</li>
+				<li>ИмяПользователя - <i>Строка</i> - Имя учетной записи MSSQL.</li>
+				<li>Пароль - <i>Строка</i> - Пароль учетной записи MSSQL.</li>
+				<li>ИмяФайла - <i>Строка</i> - Путь к файлу бэкапа.</li>
+
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ПолучитьОбъектУправленияSQL</h3>
+			<div class="descr">Получает объект для работы с MSSQL.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ОписаниеБазы - <i>ОписаниеБазы</i> - Объект описания базы.</li>
+				<li>ИмяПользователя - <i>Строка</i> - Имя учетной записи MSSQL.</li>
+				<li>Пароль - <i>Строка</i> - Пароль учетной записи MSSQL.</li>
+
+			</ul>
+			<h4>Возвращаемое значение:</h4>
+			<ul>
+				<li><i>УправлениеMSSQL</i></li>
+			</ul>
+		</div>
+
+
+	</div>
+</body>
+</html>

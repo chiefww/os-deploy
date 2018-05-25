@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+	<title>РаботаСПочтой</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	
+	body {
+		font-family: Arial;
+	}
+	
+	div.content h1 {
+		margin: 5px 0;
+	}
+	
+	div.content h2 {
+		margin: 20px 0 5px 0;
+		padding: 10px;
+		background: #ccc;
+	}
+	
+	div.content h3 {
+		margin: 20px 0 5px 0;
+		font-size: 20px;
+	}
+	
+	div.content h4 {
+		margin: 10px 0 5px 0;
+	}
+	
+	div.content ul {
+		margin: 0;
+	}
+	
+	div.content div.sep {
+		margin: 20px 0 0 0;
+		border-top: 1px dotted #000;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h1>РаботаСПочтой</h1>
+		<div class="descr">Модуль для работы с электронной почтой</div>
+
+		<h2>Методы:</h2>
+		<div class="block">
+			<h3>ОтправитьСообщение</h3>
+			<div class="descr">Отправляет сообщение по электронной почте.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ОписаниеПочты - <i>ОписаниеУчетнойЗаписиПочты</i> - Объект описания почты, отправитель.</li>
+				<li>Получатель - <i>Строка</i> - Адрес получателя.</li>
+				<li>Тема - <i>Строка</i></li>
+				<li>ТекстСообщения - <i>Строка</i></li>
+
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ОтправитьРезультатРаботы</h3>
+			<div class="descr">Отправляет сообщение с результатом работы скрипта по электронной почте.     Результатом работы считается выведенный лог.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>ОписаниеПочты - <i>ОписаниеУчетнойЗаписиПочты</i> - Объект описания почты, отправитель.</li>
+				<li>Получатель - <i>Строка</i> - Адрес получателя.</li>
+				<li>Тема - <i>Строка</i></li>
+				<li>ТекстСообщения - <i>Строка</i> - Этот текст будет помещен перед результатом работы (необязательный).</li>
+
+			</ul>
+		</div>
+
+
+	</div>
+</body>
+</html>

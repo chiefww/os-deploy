@@ -1,0 +1,102 @@
+﻿<html>
+<head>
+	<title>ЗамерВремени</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	
+	body {
+		font-family: Arial;
+	}
+	
+	div.content h1 {
+		margin: 5px 0;
+	}
+	
+	div.content h2 {
+		margin: 20px 0 5px 0;
+		padding: 10px;
+		background: #ccc;
+	}
+	
+	div.content h3 {
+		margin: 20px 0 5px 0;
+		font-size: 20px;
+	}
+	
+	div.content h4 {
+		margin: 10px 0 5px 0;
+	}
+	
+	div.content ul {
+		margin: 0;
+	}
+	
+	div.content div.sep {
+		margin: 20px 0 0 0;
+		border-top: 1px dotted #000;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h1>ЗамерВремени</h1>
+		<div class="descr">Класс замера времени выполнения действий</div>
+
+		<h2>Методы:</h2>
+		<div class="block">
+			<h3>НачатьЗамер</h3>
+			<div class="descr">Запускает замер времени, устанавливает дату начала отсчета.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>Дата - <i>Дата</i> - Дата и время начала отсчета, если не указано, используется текущая дата (необязательный).</li>
+
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ЗакончитьЗамер</h3>
+			<div class="descr">Останавливает замер времени, устанавливает дату окончания отсчета.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>Дата - <i>Дата</i> - Дата и время окончания отсчета, если не указано, используется текущая дата (необязательный).</li>
+
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ПолучитьРезультат</h3>
+			<div class="descr">Возвращает разницу в секундах между окончанием и началом отсчета.</div>
+			<h4>Возвращаемое значение:</h4>
+			<ul>
+				<li><i>Число</i></li>
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ПолучитьРезультатСтрокой</h3>
+			<div class="descr">Возвращает разницу окончанием отсчета и началом отсчета в виде форматированной строки.</div>
+			<h4>Возвращаемое значение:</h4>
+			<ul>
+				<li><i>Строка</i></li>
+			</ul>
+		</div>
+		<div class="sep"></div>
+		<div class="block">
+			<h3>ФорматироватьРезультат</h3>
+			<div class="descr">Форматирует количество секунд в читаемый вид.</div>
+			<h4>Параметры:</h4>
+			<ul>
+				<li>Результат - <i>Чтсло</i></li>
+
+			</ul>
+			<h4>Возвращаемое значение:</h4>
+			<ul>
+				<li><i>Строка</i></li>
+			</ul>
+		</div>
+
+
+	</div>
+</body>
+</html>
