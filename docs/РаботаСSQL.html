@@ -36,6 +36,10 @@
 		border-top: 1px dotted #000;
 	}
 	
+	div.content div.methodlist {
+		margin-top: 15px;
+	}
+	
 	</style>
 </head>
 <body>
@@ -44,7 +48,18 @@
 		<div class="descr">Модуль для работы с базами средствами MSSQL</div>
 
 		<h2>Методы:</h2>
+		<div class="methodlist">
+			<ul>
+				<li><a href="#СоздатьБэкап">СоздатьБэкап</a></li>
+				<li><a href="#ЗагрузитьБэкап">ЗагрузитьБэкап</a></li>
+				<li><a href="#ПолучитьОбъектУправленияSQL">ПолучитьОбъектУправленияSQL</a></li>
+
+			</ul>
+		</div>
+		<div class="sep"></div>
+
 		<div class="block">
+			<a name="СоздатьБэкап"></a>
 			<h3>СоздатьБэкап</h3>
 			<div class="descr">Создает бэкап базы.</div>
 			<h4>Параметры:</h4>
@@ -58,6 +73,7 @@
 		</div>
 		<div class="sep"></div>
 		<div class="block">
+			<a name="ЗагрузитьБэкап"></a>
 			<h3>ЗагрузитьБэкап</h3>
 			<div class="descr">Загружает бэкап базы.</div>
 			<h4>Параметры:</h4>
@@ -72,6 +88,7 @@
 		</div>
 		<div class="sep"></div>
 		<div class="block">
+			<a name="ПолучитьОбъектУправленияSQL"></a>
 			<h3>ПолучитьОбъектУправленияSQL</h3>
 			<div class="descr">Получает объект для работы с MSSQL.</div>
 			<h4>Параметры:</h4>
